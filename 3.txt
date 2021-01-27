@@ -1,0 +1,7 @@
+Ivanov 35000
+Petrov 19000
+Sidorov 25000
+Kuznetsov 15000
+Putin 100000
+Navalny 50000
+Someone 9000
