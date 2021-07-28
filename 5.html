@@ -1,0 +1,40 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2-5</title>
+</head>
+
+<body>
+    <script>
+        "use strict";
+
+        const mySum = (a, b) => a + b;
+        const mySub = (a, b) => a - b;
+        const myDiv = (a, b) => a / b;
+        const myMul = (a, b) => a * b;
+
+        function mathOperation(arg1, arg2, operation) {
+            switch (operation) {
+                case "сложение":
+                    return mySum(arg1, arg2);
+                case "вычитание":
+                    return mySub(arg1, arg2);
+                case "деление":
+                    return myDiv(arg1, arg2);
+                case "умножение":
+                    return myMul(arg1, arg2);
+                default:
+                    return "Нет такой операции!";
+            }
+        }
+
+        console.log(mathOperation(6, 2, "сложение"));
+        console.log(mathOperation(6, 2, "вычитание"));
+        console.log(mathOperation(6, 2, "деление"));
+        console.log(mathOperation(6, 2, "умножение"));
+        console.log(mathOperation(6, 2, "степень"));
+    </script>
+</body>
+
+</html>
