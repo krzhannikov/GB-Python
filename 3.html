@@ -1,0 +1,37 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 3-3</title>
+</head>
+
+<body>
+    <script>
+        "use strict";
+
+        const products = [
+            {
+                id: 3,
+                price: 200,
+            },
+            {
+                id: 4,
+                price: 900,
+            },
+            {
+                id: 1,
+                price: 1000,
+            },
+        ];
+
+        products.forEach(low15);
+        function low15(lowprice) {
+            console.log(lowprice.price + " - старая цена");
+            lowprice.price *= 0.85;
+            console.log(lowprice.price + " - цена со скидкой");
+        }
+
+    </script>
+</body>
+
+</html>
